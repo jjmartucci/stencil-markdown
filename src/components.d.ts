@@ -20,7 +20,7 @@ export namespace Components {
     interface TabContainer {
     }
     interface TabContent {
-        "title": string;
+        "titleText": string;
     }
 }
 declare global {
@@ -83,7 +83,7 @@ declare namespace LocalJSX {
     interface TabContainer {
     }
     interface TabContent {
-        "title"?: string;
+        "titleText"?: string;
     }
     interface IntrinsicElements {
         "app-home": AppHome;

@@ -7,7 +7,7 @@ import { Component, Host, Prop, h } from '@stencil/core';
   shadow: true,
 })
 export class TabContent {
-  @Prop() title: string;
+  @Prop() titleText: string;
     
   render() {
     return (
