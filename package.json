@@ -2,7 +2,7 @@
   "name": "webcomponents-in-markdown",
   "main": "./www/dist/index.cjs.js",
   "collection": "./www/dist/collection/collection-manifest.json",
-  "types": "./dist/types/components.d.ts",
+  "types": "./www/dist/types/components.d.ts",
   "module": "./www/dist/index.js",
   "private": true,
   "version": "0.0.1",
